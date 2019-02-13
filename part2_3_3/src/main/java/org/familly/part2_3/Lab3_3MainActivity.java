@@ -20,6 +20,7 @@ public class Lab3_3MainActivity extends AppCompatActivity implements View.OnClic
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_lab3_3_main);
 
+
         //버튼클릭 이벤트를 할려면 버튼을 참조해야 한다.
         btnVisibleTrue = (Button) findViewById(R.id.btn_visible_true);
         btnVisibleFalse = (Button) findViewById(R.id.btn_visible_false);
