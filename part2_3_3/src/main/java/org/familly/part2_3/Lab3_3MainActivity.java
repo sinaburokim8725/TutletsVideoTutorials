@@ -13,6 +13,8 @@ public class Lab3_3MainActivity extends AppCompatActivity implements View.OnClic
     Button btnVisibleGone;
     TextView textVisibleTarget;
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
