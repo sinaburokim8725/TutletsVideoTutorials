@@ -26,6 +26,7 @@ public class Lab3_3MainActivity extends AppCompatActivity implements View.OnClic
         btnVisibleGone = (Button) findViewById(R.id.btn_visible_gone);
         textVisibleTarget = (TextView) findViewById(R.id.text_visible_target);
 
+
         /**
          //텍스트 뷰를 보여준다.
          btnVisibleTrue.setOnClickListener(new View.OnClickListener() {
