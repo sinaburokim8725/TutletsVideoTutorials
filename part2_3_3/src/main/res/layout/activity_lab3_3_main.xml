@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#ff88ff"
+    >
+
+    <Button
+        android:id="@+id/btn_visible_true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Visible" />
+
+    <TextView
+        android:id="@+id/text_visible_target"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff0000"
+        android:padding="10dp"
+        android:text="Hello World!★"
+        android:gravity="center"
+        android:textColor="#0000ff"
+        android:textSize="16dp"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/btn_visible_false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Invisible" />
+
+    <Button
+        android:id="@+id/btn_visible_gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GONE" />
+</LinearLayout>
